@@ -19,7 +19,7 @@ int main() {
     // printf("%s\n",s);   
     for(int i=0;i<strlen(s);i++)
     {
-        if(s[i]>=48 || s[i]<=57){
+        if(s[i]>=48 && s[i]<=57){
             
             a[s[i]-48]++;
         }
